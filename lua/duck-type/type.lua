@@ -22,7 +22,7 @@ function M.type(delay)
 	local timer = vim.loop.new_timer()
 
 	if timer == nil then
-		vim.notify("DuckType Error: timer could not be initialised", vim.log.levels.ERROR)
+		vim.notify("duck-type.nvim Error: timer could not be initialised", vim.log.levels.ERROR)
 
 		Overlay.close_overlay(window, buffer)
 

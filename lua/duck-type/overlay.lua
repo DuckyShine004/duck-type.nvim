@@ -2,7 +2,6 @@
 
 local M = {}
 
--- TODO: Create method for buffer and window
 function M.create_overlay()
 	local current_window = vim.api.nvim_get_current_win()
 

@@ -95,6 +95,10 @@ function M.type(options)
 			lines = { "" }
 		end
 
+		-- Add custom cursor
+		lines[#lines] = lines[#lines] .. options.cursor
+
+		-- Add custom cursor
 		if not pcall(vim.api.nvim_buf_set_lines, buffer, 0, -1, false, lines) then
 			return
 		end

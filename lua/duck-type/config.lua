@@ -5,6 +5,7 @@ local M = {}
 M.defaults = {
 	delay = 50, -- in ms
 	loop = true, -- looping over the same buffer
+	cursor = "🦆",
 }
 
 M.options = vim.deepcopy(M.defaults)

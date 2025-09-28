@@ -1,10 +1,10 @@
 * TODO
 
-** ( ) Overlay.lua 
+** (x) Overlay.lua 
    - [x] Quit when users press 'q' or any other keybind
    - [x] Refactor long code
    - [x] Handle on user quit event before DuckType process finishes
 
-** ( ) Config.lua
-   - [ ] Allow for custom cursor/caret character
+** (x) Config.lua
+   - [x] Allow for custom cursor/caret character
    - [x] Implement looping 

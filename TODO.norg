@@ -1,8 +1,8 @@
 * TODO
 
 ** ( ) Overlay.lua 
-   - [x] Quit when users press 'q'
-   - [ ] Refactor long code
+   - [x] Quit when users press 'q' or any other keybind
+   - [x] Refactor long code
    - [x] Handle on user quit event before DuckType process finishes
 
 ** ( ) Config.lua

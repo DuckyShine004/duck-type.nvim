@@ -12,7 +12,7 @@ M.options = vim.deepcopy(M.defaults)
 function M.setup(options)
 	options = options or {}
 
-	M.options = vim.tbl_deep_extend("force", M.options, options)
+	M.options = vim.tbl_deep_extend("force", vim.deepcopy(M.defaults), options)
 
 	return M.options
 end

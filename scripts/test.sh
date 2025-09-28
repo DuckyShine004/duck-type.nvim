@@ -4,7 +4,8 @@ set -euo pipefail
 
 cd "$(dirname "$0")/.."
 
-nvim --headless -u NONE --cmd "set rtp+=$PWD" \
+nvim --headless -u NONE \
+    --cmd "set rtp^=$PWD" \
+    +"lua require('duck-type').setup({ delay = 30, loop = true })" \
     +"e README.md" \
-    +"lua require('duck-type').setup()" \
     +DuckType +qa

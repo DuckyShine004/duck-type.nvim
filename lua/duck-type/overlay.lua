@@ -46,6 +46,9 @@ function M.create_overlay()
 	vim.api.nvim_set_option_value("foldcolumn", "0", { win = window })
 	vim.api.nvim_set_option_value("wrap", false, { win = window })
 
+	-- Clear the buffer
+	M.clear(buffer)
+
 	return window, buffer
 end
 
@@ -56,6 +59,13 @@ function M.close_overlay(window, buffer)
 
 	if vim.api.nvim_buf_is_valid(buffer) then
 		vim.api.nvim_buf_delete(buffer, { force = true })
+	end
+end
+
+function M.clear(buffer)
+	if vim.api.nvim_buf_is_valid(buffer) then
+		vim.api.nvim_set_option_value("modifiable", true, { buf = buffer })
+		vim.api.nvim_buf_set_lines(buffer, 0, -1, false, { "" })
 	end
 end
 

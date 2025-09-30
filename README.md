@@ -63,4 +63,3 @@ M.defaults = {
 Run `:DuckType` within Neovim's CLI to see duck's code for you!
 
 ## Showcase
-<video src="snapshots/video.mp4"></video>

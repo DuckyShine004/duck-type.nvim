@@ -64,4 +64,4 @@ Run `:DuckType` within Neovim's CLI to see duck's code for you!
 
 ## Showcase
 
-![duck-type](snapshots/duck-type.mp4)
+https://user-images.githubusercontent.com/77913442/209674116-7a4bd2e8-e286-4aa6-b66c-57be2a646e4b.mp4

@@ -63,3 +63,6 @@ M.defaults = {
 Run `:DuckType` within Neovim's CLI to see duck's code for you!
 
 ## Showcase
+
+https://github.com/user-attachments/assets/04f73a3b-4be2-47fa-9065-b2b44036d7d8
+

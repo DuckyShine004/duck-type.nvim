@@ -4,9 +4,9 @@
    - [x] Quit when users press 'q' or any other keybind
    - [x] Refactor long code
    - [x] Handle on user quit event before DuckType process finishes
-   - [ ] Add option for line numbers
-   - [ ] Add option for 'zen' mode
 
 ** (x) Config.lua
    - [x] Allow for custom cursor/caret character
    - [x] Implement looping 
+   - [ ] Add option for line numbers
+   - [ ] Add option for 'zen' mode
